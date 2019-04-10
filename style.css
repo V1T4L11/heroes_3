@@ -1,0 +1,42 @@
+
+body {
+	width: 100%;
+	font-family: Times;
+	font-size: 18px;
+}
+
+.resize {
+	width: 900px;
+	margin: 0 auto;
+	background-color: #ffffff
+}
+
+.footer_green {
+	height: 48px;
+	border-radius: 5px;
+}
+
+.footer_green p {
+	
+}
+.green {
+	background-color: #31420b;
+	color: white;
+}
+
+.footer_white {
+	float: left;
+}
+
+.logo_inner {
+	display: inline-block;
+	width: 182px;
+	height: 206px;
+}
+
+.name_inner {
+	display: inline-block;
+	width: 195px;
+	text-align: center;
+	vertical-align: top;
+}
