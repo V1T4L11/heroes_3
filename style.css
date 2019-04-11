@@ -11,21 +11,20 @@ body {
 	background-color: #ffffff
 }
 
-.footer_green {
+.main:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.header_green {
 	height: 48px;
 	border-radius: 5px;
 }
 
-.footer_green p {
-	
-}
 .green {
 	background-color: #31420b;
 	color: white;
-}
-
-.footer_white {
-	float: left;
 }
 
 .logo_inner {
@@ -46,12 +45,55 @@ body {
 	float: right;	
 }
 
-.ul_none {
+.social_inner ul {
+	list-style: none;
+	text-align: right;
+}
+
+.social_inner a {
+	text-decoration: none underline;
+	color: #31420B;
+	padding-bottom: 25px;
+	float: right;
+}
+
+.social_inner a:hover {
+	color: green;
+}
+
+.mainbar {
+	display: inline-block;
+	float: left;
+	width: 66%;
+	font-size: 16px;
+	line-height: 1.6em;
+}
+
+.mainbar h1 {
+	font-size: 28px;
+}
+
+.mainbar img {
+	width: 575px;
+}
+
+.sidebar {
+	display: inline-block;
+	float: right;
+	width: 33%;
+}
+
+.nav_header {
+	width: 300px;
+	height: 48px;
+}
+
+.sidebar ul {
 	list-style: none;
 }
 
-.footer_social a {
-	text-decoration: none;
+.sidebar a {
+	text-decoration: none underline;
 	color: #31420B;
-	text-align: right;
+	padding-bottom: 25px;
 }
