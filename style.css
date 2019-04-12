@@ -17,7 +17,7 @@ body {
   clear: both;
 }
 
-.header_green {
+.bg_green {
 	height: 48px;
 	border-radius: 5px;
 }
@@ -96,4 +96,19 @@ body {
 	text-decoration: none underline;
 	color: #31420B;
 	padding-bottom: 25px;
+}
+
+footer a {
+	display: inline-block;
+	float: right;
+	width: 200px;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+}
+
+footer p {
+	display: inline-block;
+	width: 300px;
+	margin: auto 10px;
 }
