@@ -1,14 +1,14 @@
-
 body {
 	width: 100%;
 	font-family: Times;
 	font-size: 18px;
+	background-image: url(images/background.jpg);
 }
 
 .main {
 	width: 900px;
 	margin: 0 auto;
-	background-color: #ffffff
+	background-color: white;
 }
 
 .main:after {
@@ -17,14 +17,15 @@ body {
   clear: both;
 }
 
-.bg_green {
-	height: 48px;
-	border-radius: 5px;
-}
-
 .green {
 	background-color: #31420b;
 	color: white;
+	line-height: 48px;
+	border-radius: 5px;
+}
+
+.main_content {
+	
 }
 
 .logo_inner {
@@ -67,6 +68,10 @@ body {
 	width: 66%;
 	font-size: 16px;
 	line-height: 1.6em;
+}
+
+.mainbar p {
+	text-indent: 25px;
 }
 
 .mainbar h1 {
