@@ -1,4 +1,4 @@
-ul {list-style: none; padding-left: 10px;}
+ul {list-style: none; padding-left: 30px;}
 p { margin: 0; padding: 10px 0;}
 a {text-decoration: none underline; color: #31420B; padding-bottom: 20px;}
 a:hover {color: green;}
@@ -36,6 +36,7 @@ body {
 	display: inline-block;
 	width: 182px;
 	height: 206px;
+	margin: 10px 30px;
 }
 
 .name_inner {
@@ -43,6 +44,7 @@ body {
 	width: 195px;
 	text-align: center;
 	vertical-align: top;
+	margin-top: 20px;
 }
 
 .social_inner {
@@ -52,14 +54,11 @@ body {
 
 .social_inner ul {
 	text-align: right;
+	padding-right: 15px;
 }
 
 .social_inner a {
 	float: right;
-}
-
-.social_inner a:hover {
-	color: green;
 }
 
 .mainbar {
@@ -76,7 +75,7 @@ body {
 }
 
 .mainbar h1 {
-	font-size: 28px;
+	font-size: 26px;
 	line-height: 1.4em
 }
 
@@ -91,10 +90,11 @@ body {
 }
 
 .nav_header {
-	width: 297px;
+	width: 273px;
 	background-color: #31420b;
 	color: white;
 	line-height: 28px;
+	padding-left: 25px;
 }
 
 .menu li {
@@ -107,9 +107,9 @@ footer a {
 	display: inline-block;
 	float: right;
 	width: 200px;
-	text-align: center;
 	text-decoration: none;
 	color: white;
+
 }
 
 footer p {
